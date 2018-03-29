@@ -25,6 +25,7 @@ class EmojiTableViewController: UITableViewController {
 
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
         
         cell.textLabel?.text = emojis[indexPath.row]
