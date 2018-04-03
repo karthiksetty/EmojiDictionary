@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93B454F72073D86600A21067 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B454F62073D86600A21067 /* Emoji.swift */; };
 		93D5C87E206BC977002F9059 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D5C87D206BC977002F9059 /* AppDelegate.swift */; };
 		93D5C883206BC977002F9059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D5C881206BC977002F9059 /* Main.storyboard */; };
 		93D5C885206BC977002F9059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D5C884206BC977002F9059 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93B454F62073D86600A21067 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		93D5C87A206BC977002F9059 /* Emoji Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D5C87D206BC977002F9059 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93D5C882206BC977002F9059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				93D5C889206BC977002F9059 /* Info.plist */,
 				93D5C88F206BE565002F9059 /* EmojiTableViewController.swift */,
 				93D5C891206D10F2002F9059 /* EmojiDetailViewController.swift */,
+				93B454F62073D86600A21067 /* Emoji.swift */,
 			);
 			path = "Emoji Dictionary";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			files = (
 				93D5C890206BE565002F9059 /* EmojiTableViewController.swift in Sources */,
 				93D5C892206D10F2002F9059 /* EmojiDetailViewController.swift in Sources */,
+				93B454F72073D86600A21067 /* Emoji.swift in Sources */,
 				93D5C87E206BC977002F9059 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
